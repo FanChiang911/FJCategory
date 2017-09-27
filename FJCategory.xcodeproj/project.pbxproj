@@ -711,6 +711,7 @@
 				8C41334C1F7A23100040B6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C41334D1F7A23100040B6EA /* Build configuration list for PBXNativeTarget "FJCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +720,7 @@
 				8C41334F1F7A23100040B6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
