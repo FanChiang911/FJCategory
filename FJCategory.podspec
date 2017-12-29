@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.homepage     = "https://github.com/FanChiang911/FJCategory"
-#  s.license      = "MIT"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = "MIT"
 
 
   s.author             = { "jiangfan" => "QQ35609060" }
@@ -21,10 +20,11 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/FanChiang911/FJCategory.git", :tag => "1.0.3" }
 
-#  s.source_files  = "FJCategory/*.{h,m}"
+  s.source_files  = "FJCategory/*.{h,m}"
 #  s.exclude_files = "Classes/Exclude"
 
 #  s.public_header_files = "FJCategory/Category/**/*.h"
+  s.ios.frameworks = 'Foundation', 'UIKit'
 
   s.requires_arc = true
 end
