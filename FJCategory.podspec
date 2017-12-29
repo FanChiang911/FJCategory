@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '8.0'
 
 
-  s.source       = { :git => "https://github.com/FanChiang911/FJCategory.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/FanChiang911/FJCategory.git", :tag => "1.0.3" }
 
-  s.source_files  = "FJCategory/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+#  s.source_files  = "FJCategory/*.{h,m}"
+#  s.exclude_files = "Classes/Exclude"
 
 #  s.public_header_files = "FJCategory/Category/**/*.h"
 
