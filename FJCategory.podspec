@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FJCategory"
-  s.version      = "1.0.0"
+  s.version      = "1.0.3"
   s.summary      = "provide all kinds of categories for iOS developer"
 
   s.description = %{
